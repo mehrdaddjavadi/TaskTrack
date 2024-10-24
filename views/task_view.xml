@@ -1,0 +1,18 @@
+<odoo>
+    <record id="view_task_form" model="ir.ui.view">
+        <field name="name">project.task.form</field>
+        <field name="model">project.task</field>
+        <field name="arch" type="xml">
+            <form string="Task">
+                <group>
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name="deadline"/>
+                    <field name="state"/>
+                    <field name="project_id"/>
+                    <field name="assigned_employee_id"/>
+                </group>
+            </form>
+        </field>
+    </record>
+</odoo>
